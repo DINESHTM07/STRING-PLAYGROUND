@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>String Playground</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="main-wrapper">
+      <section class="card">
+        <h1>String Playground</h1>
+        <input type="text" id="user-input" placeholder="Type Something..." autocomplete="off" />
+        <div class="button-group">
+          <button id="char-count-btn" title="Count Characters">Character Count</button>
+          <button id="reverse-btn" title="Reverse String">Reverse String</button>
+          <button id="random-char-btn" title="Random Character">Random Character</button>
+          <button id="uppercase-btn" title="Convert to UPPERCASE">UPPERCASE</button>
+          <button id="lowercase-btn" title="Convert to lowercase">lowercase</button>
+        </div>
+        <button id="copy-btn" title="Copy Result">Copy Result</button>
+        <div id="result"></div>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
